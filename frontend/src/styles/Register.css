@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* center */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* glass card */
+.glass {
+  width: 350px;
+  padding: 30px;
+  border-radius: 20px;
+  margin: auto;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(25px);
+
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+
+  text-align: center;
+}
+
+/* heading */
+.glass h2 {
+  color: #0ea5e9;
+  margin-bottom: 15px;
+}
+
+/* inputs */
+.glass input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+  border-radius: 10px;
+  border: none;
+
+  background: rgba(0, 0, 0, 0.6);
+  color: black;
+
+  outline: none;
+}
+
+/* placeholder */
+.glass input::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+/* button */
+.glass button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: linear-gradient(45deg, #ffcc00, #ffaa00);
+  color: black;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.glass button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px  #0ea5e9;
+}
+
+/* login text */
+.glass p {
+  margin-top: 15px;
+  color: #475569;
+  cursor: pointer;
+}
+
+.glass p span {
+  color:  #0ea5e9;
+  font-weight: bold;
+}
